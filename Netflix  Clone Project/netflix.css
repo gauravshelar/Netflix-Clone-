@@ -1,0 +1,312 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    height: 85vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/e4b3c14a-684b-4fc4-b14f-2b486a4e9f4e/IN-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center center;
+    opacity: 85%;
+    background-size: max(100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .box {
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    height: 80px;
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    height: 85px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    height: calc(100% - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero>:nth-child(1) {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+
+.hero>:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.hero>:nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.separation {
+    height: 7px;
+    background-color: darkgray;
+    opacity: 60%;
+    position: relative;
+    z-index: 20;
+
+}
+
+.btn {
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.small-btn {
+    cursor: pointer;
+    font-weight: 600;
+    background-color: red;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 6px;
+    margin: 20px;
+}
+
+.big-btn {
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 15px 9px 15px;
+    font-weight: 700;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main input {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 60px 10px 15px;
+
+}
+
+.sectext {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    height: 340px;
+    width: 459px;
+    position: relative;
+    z-index: -1;
+}
+
+.secimg video {
+    position: absolute;
+    top: 71px;
+    width: 336px;
+    right: 63px;
+}
+
+.secimg2 img {
+    width: 460px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg2 video {
+    position: absolute;
+    top: 1350px;
+    width: 294px;
+    right: 314px;
+}
+
+.sectext>div :nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sectext>div :nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ask1:hover {
+    background-color: #414141;
+    color: rgb(255, 255, 255);
+
+}
+
+.ask1 {
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    padding: 24px;
+    width: 60vw;
+    margin: 8px auto;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.questions h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    padding: 25px 5px 15px 5px;
+    margin: 10px 10px;
+}
+
+.questions {
+    background-color: black;
+    color: white;
+
+}
+
+.questions2 h3 {
+    color: rgb(255, 255, 255);
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.questions2 input {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 80px 10px 15px;
+}
+
+.hero-buttons2 {
+    display: flex;
+    width: 40vw;
+    margin: auto;
+    gap: 5px;
+    padding: 0px 0px 61px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer a {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+footer .call {
+    padding: 30px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 35px;
+    gap: 85px;
+}
+
+.footer {
+    display: grid;
+    color: white;
+    text-decoration: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item {
+    text-align: left;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
